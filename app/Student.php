@@ -12,4 +12,6 @@ class Student extends Model
      * @var bool
      */
     public $timestamps = false;
+
+    protected $fillable = ['num', 'spec', 'lastname', 'firstname', 'center'];
 }

@@ -23,8 +23,9 @@
            </div>
            <div class="col-xs-6">
                <h2>Recherche</h2>
-               <form>
+               <form action="/students" method="get">
                    <input type="search" name="num">
+                   <input type="submit">
                </form>
            </div>
        </div>
